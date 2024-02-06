@@ -1,0 +1,15 @@
+Algoritmo Nota_de_estudiante
+	Escribir "Ingrese la nota del estudiante: "
+	Leer nota
+	Si nota == 3 o nota == 4 Entonces
+		Escribir "Aprobado"
+	Sino Si nota == 5 entonces
+			Escribir "Excelente"
+		Sino Si nota == 2 o nota == 1 Entonces
+				Escribir "Suspenso"
+			Sino
+				Escribir "Nota inválida"
+			Fin Si
+	Fin Si
+			FinSi	
+FinAlgoritmo
