@@ -1,0 +1,14 @@
+Algoritmo Cálculo_del_IMC
+	
+	Escribir "Ingrese su peso en kilogramos: "
+	Leer peso
+	
+	Escribir "Ingrese su estatura en metros: "
+	Leer estatura
+	
+	IMC = peso / (estatura * estatura)
+	
+	Escribir "Su Índice de Masa Corporal (IMC) es: ", IMC
+
+
+FinAlgoritmo
