@@ -1,0 +1,15 @@
+Algoritmo Clasificacion_de_triangulos
+  Inicio
+	Escribir "Ingrese el valor del primer lado del triángulo: "
+	Leer lado1	
+	Escribir "Ingrese el valor del segundo lado del triángulo: "
+	Leer lado2
+	Escribir "Ingrese el valor del tercer lado del triángulo: "
+	Leer lado3	
+	Si (lado1 + lado2 > lado3) y (lado1 + lado3 > lado2) y (lado2 + lado3 > lado1) entonces
+		Escribir "Los lados ingresados pueden formar un triángulo."
+	Sino
+		Escribir "Los lados ingresados no pueden formar un triángulo."
+	FinSi
+	
+FinAlgoritmo
