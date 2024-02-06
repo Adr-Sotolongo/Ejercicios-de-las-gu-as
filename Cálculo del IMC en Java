@@ -12,7 +12,7 @@ Scanner input = new Scanner(System.in);
         if (IMC<18){
            System.out.println("Eres tercer mundista :D ");
              }
- else if(IMC<25){
+       else if(IMC<25){
              System.out.println("Tas bien(eri gei :/ ) ");  
                }  
         else if(IMC<30){
