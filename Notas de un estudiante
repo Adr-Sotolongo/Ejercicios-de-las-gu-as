@@ -1,0 +1,16 @@
+Scanner input = new Scanner(System.in);
+
+        System.out.print("Ingrese la nota del estudiante: ");
+        int nota = input.nextInt();
+
+        if (nota == 3 || nota == 4) {
+            System.out.println("Aprobado");
+        } else if (nota == 5) {
+            System.out.println("Excelente");
+        } else if (nota == 2 || nota == 1) {
+            System.out.println("Suspenso");
+        } else {
+            System.out.println("Nota invalida");
+        }
+    }
+}
