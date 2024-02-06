@@ -1,0 +1,22 @@
+Scanner input = new Scanner(System.in);
+
+        System.out.print("Ingrese su peso en kilogramos: ");
+        double peso = input.nextDouble();
+
+        System.out.print("Ingrese su estatura en metros: ");
+        double estatura = input.nextDouble();
+
+       double IMC = peso / (estatura*estatura);
+        System.out.println("Su Indice de Masa Corporal (IMC) es: " + IMC);
+        
+        if (IMC<18){
+           System.out.println("Eres tercer mundista :D ");
+             }
+       else{
+             System.out.println("Tas bien(eri gei :/ ) ");  
+               }  
+    }
+        
+             
+        
+    }
